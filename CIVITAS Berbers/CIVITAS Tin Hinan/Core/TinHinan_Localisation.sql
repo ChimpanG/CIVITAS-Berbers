@@ -25,20 +25,20 @@ VALUES
 -----------------------------------------------	
 
 	("en_US",	"LOC_AGENDA_CVS_TIN_HINAN_NAME",	"Tamenoka"	),
-	("en_US",	"LOC_AGENDA_CVS_TIN_HINAN_DESCRIPTION",	"Dihya likes those who keep their citizens happy and their treasury full. She dislikes those who go to war on her home continent."	),
+	("en_US",	"LOC_AGENDA_CVS_TIN_HINAN_DESCRIPTION",	"TBD"	),
 	
-	("en_US",	"LOC_DIPLO_KUDO_LEADER_CVS_TIN_HINAN_REASON_ANY",	"(Your coffers are full and your people are happy.)"	),
-	("en_US",	"LOC_DIPLO_MODIFIER_CVS_TIN_HINAN_HAPPY",	"Dihya is impressed by your fair rule and the strength of your economy"	),
+	("en_US",	"LOC_DIPLO_KUDO_LEADER_CVS_TIN_HINAN_REASON_ANY",	"(TBD.)"	),
+	("en_US",	"LOC_DIPLO_MODIFIER_CVS_TIN_HINAN_HAPPY",	"Tin Hinan is etc..."	),
 	
-	("en_US",	"LOC_DIPLO_WARNING_LEADER_CVS_TIN_HINAN_REASON_ANY",	"(Your people are happy.)"	),
-	("en_US",	"LOC_DIPLO_MODIFIER_CVS_TIN_HINAN_UNHAPPY",	"Vlad III sees your weak military as an opportunity for conquest"	),
+	("en_US",	"LOC_DIPLO_WARNING_LEADER_CVS_TIN_HINAN_REASON_ANY",	"(TBD.)"	),
+	("en_US",	"LOC_DIPLO_MODIFIER_CVS_TIN_HINAN_UNHAPPY",	"Tin Hinan is etc..."	),
 
 -----------------------------------------------
 -- DOM
 -----------------------------------------------	
 
 	("en_US",	"LOC_LOADING_INFO_LEADER_CVS_TIN_HINAN",
-	"Arise, Tin Hinan, mother of tents, Tamenukalt of the Tuareg. Your enemies will do well to remember that sand can blow with subtle winds."  	),
+	"Arise, Tin Hinan, Tamenukalt of the Tuareg. Yada yada yada, but your enemies will do well to remember that the sands can blow with subtle winds."  	),
 
 -----------------------------------------------
 -- Diplos | First Meet

@@ -27,7 +27,7 @@ VALUES
 -----------------------------------------------	
 
 	("en_US",	"LOC_AGENDA_CVS_DIHYA_NAME",	"Queen of the Berbers"	),
-	("en_US",	"LOC_AGENDA_CVS_DIHYA_DESCRIPTION",	"Dihya likes those who keep their citizens happy and their treasury full. She dislikes those who go to war on her home continent."	),
+	("en_US",	"LOC_AGENDA_CVS_DIHYA_DESCRIPTION",	"Likes those who keep their citizens happy and their treasury full. Dislikes those who go to war on her home continent."	),
 	
 	("en_US",	"LOC_DIPLO_KUDO_LEADER_CVS_DIHYA_REASON_ANY",	"(Your coffers are full and your people are happy.)"	),
 	("en_US",	"LOC_DIPLO_MODIFIER_CVS_DIHYA_HAPPY",	"Dihya is impressed by your fair rule and the strength of your economy"	),
