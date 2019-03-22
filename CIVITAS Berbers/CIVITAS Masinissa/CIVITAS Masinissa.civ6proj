@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>CIVITAS [ICON_GREATPERSON] Masinissa</Name>
+    <Guid>4b8a9503-6be5-481a-a446-a029e750f41e</Guid>
+    <ProjectGuid>7181e8cc-1e0e-4bc5-8b11-84e1fcc2e775</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Adds Masinissa as a leader for CIVITAS Berbers</Teaser>
+    <Description>Adds Masinissa as a leader for CIVITAS [ICON_GOVERNMENT] Berbers</Description>
+    <Authors>SeelingCat</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <ModProperties>
+      <CompatibleVersions>2.0</CompatibleVersions>
+    </ModProperties>
+    <AssemblyName>CIVITAS Masinissa</AssemblyName>
+    <RootNamespace>CIVITAS Masinissa</RootNamespace>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Mod" title="CIVITAS [ICON_GOVERNMENT] Berbers" id="ba7d3560-2e89-4f92-960a-b6171ce51926" />
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateArt id="ArtDep"><Properties><LoadOrder>110</LoadOrder></Properties></UpdateArt><UpdateDatabase id="Masinissa_Setup_DB"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Masinissa_Config.sql</File></UpdateDatabase><UpdateText id="Masinissa_Setup_Text"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Masinissa_Localisation.sql</File></UpdateText><UpdateIcons id="Masinissa_Setup_Icons"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Masinissa_Icons.sql</File></UpdateIcons><UpdateColors id="Masinissa_Setup_Colors"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Masinissa_Colors.sql</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="ArtDep"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Masinissa_DB"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Masinissa_Leader.sql</File><File>Core/Masinissa_UA.sql</File><File>Core/Masinissa_UU.sql</File><File>Core/Masinissa_Agenda.sql</File><File>Core/Masinissa_Strategy.sql</File><File>Core/Masinissa_ModSupport.sql</File></UpdateDatabase><UpdateText id="Masinissa_Text"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Masinissa_Localisation.sql</File></UpdateText><UpdateIcons id="Masinissa_Icons"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Masinissa_Icons.sql</File></UpdateIcons><UpdateColors id="Masinissa_Colors"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Masinissa_Colors.sql</File></UpdateColors><AddGameplayScripts id="Masinissa_Scripts"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Masinissa_Scripts.lua</File></AddGameplayScripts></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Core\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Core\Masinissa_Scripts.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Masinissa_UU.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Masinissa_Agenda.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Masinissa_Colors.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Masinissa_Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Masinissa_Icons.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Masinissa_Leader.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Masinissa_Localisation.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Masinissa_ModSupport.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Masinissa_Strategy.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Masinissa_UA.sql">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>CIVITAS [ICON_GREATPERSON] Dihya</Name>
+    <Guid>d2d63e78-9c11-4d82-a943-ac7c49dcc909</Guid>
+    <ProjectGuid>65bd2a76-6536-41e2-9952-40a550649c22</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Adds Dihya as a leader for CIVITAS Berbers.</Teaser>
+    <Description>Adds Dihya as a leader for CIVITAS [ICON_GOVERNMENT] Berbers.</Description>
+    <Authors>SeelingCat</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <ModProperties>
+      <CompatibleVersions>2.0</CompatibleVersions>
+    </ModProperties>
+    <AssemblyName>CIVITAS Dihya</AssemblyName>
+    <RootNamespace>CIVITAS Dihya</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateArt id="ArtDep"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Dihya_Setup_DB"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Dihya_Config.sql</File></UpdateDatabase><UpdateText id="Dihya_Setup_Text"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Dihya_Localisation.sql</File></UpdateText><UpdateDatabase id="Dihya_Setup_Icons"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Dihya_Icons.sql</File></UpdateDatabase><UpdateColors id="Dihya_Setup_Colors"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Dihya_Colors.sql</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="ArtDep"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Dihya_DB"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Dihya_Leader.sql</File><File>Core/Dihya_UA.sql</File><File>Core/Dihya_Agenda.sql</File><File>Core/Dihya_Strategy.sql</File><File>Core/Dihya_ModSupport.sql</File></UpdateDatabase><UpdateText id="Dihya_Text"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Dihya_Localisation.sql</File></UpdateText><UpdateDatabase id="Dihya_Icons"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Dihya_Icons.sql</File></UpdateDatabase><UpdateColors id="Dihya_Colors"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Dihya_Colors.sql</File></UpdateColors></InGameActions>]]></InGameActionData>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Mod" title="CIVITAS [ICON_GOVERNMENT] Berbers" id="ba7d3560-2e89-4f92-960a-b6171ce51926" />
+</Associations>]]></AssociationData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Core\Dihya_UA.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Dihya_Agenda.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Dihya_Colors.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Dihya_Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Dihya_Icons.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Dihya_Leader.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Dihya_ModSupport.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Dihya_Scripts.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Dihya_Strategy.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Dihya_Localisation.sql">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
