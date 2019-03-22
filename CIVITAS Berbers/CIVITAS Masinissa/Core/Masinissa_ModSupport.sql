@@ -11,11 +11,11 @@ CREATE TABLE IF NOT EXISTS StartPosition (MapName TEXT, Civilization TEXT, Leade
 
 INSERT INTO StartPosition
 		(Civilization,				Leader,					MapName,				X,		Y	)
-VALUES	('CIVILIZATION_CVS_BERBER',	'LEADER_CVS_MASINISSA',	'GiantEarth',			16,		51	),
-		('CIVILIZATION_CVS_BERBER',	'LEADER_CVS_MASINISSA',	'GreatestEarthMap',		46,		55	),
-		('CIVILIZATION_CVS_BERBER',	'LEADER_CVS_MASINISSA',	'CordiformEarth',		34,		19	),
-		('CIVILIZATION_CVS_BERBER',	'LEADER_CVS_MASINISSA',	'PlayEuropeAgain',		34,		21	),
-		('CIVILIZATION_CVS_BERBER',	'LEADER_CVS_MASINISSA',	'LargeEurope',			32,		21	);
+VALUES	('CIVILIZATION_CVS_BERBER',	'LEADER_CVS_MASINISSA',	'GiantEarth',			16,		50	),
+		('CIVILIZATION_CVS_BERBER',	'LEADER_CVS_MASINISSA',	'GreatestEarthMap',		39,		33	),
+		('CIVILIZATION_CVS_BERBER',	'LEADER_CVS_MASINISSA',	'CordiformEarth',		33,		19	),
+		('CIVILIZATION_CVS_BERBER',	'LEADER_CVS_MASINISSA',	'PlayEuropeAgain',		29,		22	),
+		('CIVILIZATION_CVS_BERBER',	'LEADER_CVS_MASINISSA',	'LargeEurope',			30,		19	);
 
 -----------------------------------------------
 -- 40sw4rm's Old World
@@ -32,4 +32,4 @@ CREATE TABLE IF NOT EXISTS TSL
 
 INSERT INTO TSL
 		(MapType,		Civ,						LeaderType,				X,	Y	)
-VALUES	('40sw4rmOW',	'CIVILIZATION_CVS_BERBER',	'LEADER_CVS_MASINISSA',	18,	38	);
+VALUES	('40sw4rmOW',	'CIVILIZATION_CVS_BERBER',	'LEADER_CVS_MASINISSA',	16,	34	);
