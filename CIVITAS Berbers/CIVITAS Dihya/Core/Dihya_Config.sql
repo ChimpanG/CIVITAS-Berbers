@@ -14,8 +14,8 @@ VALUES	(
 		'CIVILIZATION_CVS_BERBER', -- CivilizationType
 		'LOC_CIVILIZATION_CVS_BERBER_NAME', -- CivilizationName
 		'ICON_CIVILIZATION_CVS_BERBER', -- CivilizationIcon
-		'LOC_TRAIT_CIVILIZATION_CVS_TAMAZGHA_NAME', -- CivilizationAbilityName
-		'LOC_TRAIT_CIVILIZATION_CVS_TAMAZGHA_DESCRIPTION', -- CivilizationAbilityDescription
+		'LOC_TRAIT_CIVILIZATION_CVS_BERBER_UA_NAME', -- CivilizationAbilityName
+		'LOC_TRAIT_CIVILIZATION_CVS_BERBER_UA_DESCRIPTION', -- CivilizationAbilityDescription
 		'ICON_CIVILIZATION_CVS_BERBER', -- CivilizationAbilityIcon
 		
 		-- Leader
@@ -34,8 +34,8 @@ VALUES	(
 		'CIVILIZATION_CVS_BERBER', -- CivilizationType
 		'LOC_CIVILIZATION_CVS_BERBER_NAME', -- CivilizationName
 		'ICON_CIVILIZATION_CVS_BERBER', -- CivilizationIcon
-		'LOC_TRAIT_CIVILIZATION_CVS_TAMAZGHA_NAME', -- CivilizationAbilityName
-		'LOC_TRAIT_CIVILIZATION_CVS_TAMAZGHA_DESCRIPTION', -- CivilizationAbilityDescription
+		'LOC_TRAIT_CIVILIZATION_CVS_BERBER_UA_NAME', -- CivilizationAbilityName
+		'LOC_TRAIT_CIVILIZATION_CVS_BERBER_UA_DESCRIPTION', -- CivilizationAbilityDescription
 		'ICON_CIVILIZATION_CVS_BERBER', -- CivilizationAbilityIcon
 		
 		-- Leader
@@ -54,8 +54,8 @@ VALUES	(
 		'CIVILIZATION_CVS_BERBER', -- CivilizationType
 		'LOC_CIVILIZATION_CVS_BERBER_NAME', -- CivilizationName
 		'ICON_CIVILIZATION_CVS_BERBER', -- CivilizationIcon
-		'LOC_TRAIT_CIVILIZATION_CVS_TAMAZGHA_NAME', -- CivilizationAbilityName
-		'LOC_TRAIT_CIVILIZATION_CVS_TAMAZGHA_XP2_DESCRIPTION', -- CivilizationAbilityDescription
+		'LOC_TRAIT_CIVILIZATION_CVS_BERBER_UA_NAME', -- CivilizationAbilityName
+		'LOC_TRAIT_CIVILIZATION_CVS_BERBER_UA_XP2_DESCRIPTION', -- CivilizationAbilityDescription
 		'ICON_CIVILIZATION_CVS_BERBER', -- CivilizationAbilityIcon
 		
 		-- Leader

@@ -135,7 +135,7 @@ FROM	v_BerberUA;
 INSERT INTO	ModifierArguments (ModifierId, Name, Value)
 SELECT	'MODIFIER_CVS_BERBER_UA_'||DistrictType,
 		'Description',
-		'LOC_MODIFIER_CVS_BERBER_UA_'||DistrictType,
+		'LOC_MODIFIER_CVS_BERBER_UA_'||DistrictType
 FROM	v_BerberUA;
 
 -----------------------------------------------
@@ -174,4 +174,4 @@ VALUES	('REQ_CVS_BERBER_UA_UNIT_IS_TRADER',	'UnitType',	'UNIT_TRADER'	);
 -- Drop View
 -----------------------------------------------
 
-DROP VIEW IF EXISTS v_BerberUA;
+-- DROP VIEW IF EXISTS v_BerberUA;

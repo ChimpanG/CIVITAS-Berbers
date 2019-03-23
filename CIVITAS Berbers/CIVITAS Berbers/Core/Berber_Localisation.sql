@@ -117,7 +117,7 @@ VALUES
 	("en_US", "LOC_CITY_NAME_TEBESSA", "Tebessa"),
 	("en_US", "LOC_CITY_NAME_DJERBA", "Djerba"),
 	("en_US", "LOC_CITY_NAME_KHENCHELA", "Khenchela"),
-	("en_US", "LOC_CITY_NAME_KHENCHELA", "Cirta"),
+	("en_US", "LOC_CITY_NAME_CIRTA", "Cirta"),
 	("en_US", "LOC_CITY_NAME_TAGHZUT", "Tagzhut"),
 	("en_US", "LOC_CITY_NAME_MARRAKESH", "Marrakesh"),
 	("en_US", "LOC_CITY_NAME_ALGIERS", "Algiers"),
