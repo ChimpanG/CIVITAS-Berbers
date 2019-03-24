@@ -4,9 +4,9 @@ XLP cook starting...
 \\WDMYCLOUD\Sam\Projects\Modding\Civ VI\IdeaProjects\GitHub\CIVITAS-Berbers\CIVITAS Berbers\CIVITAS Berbers\XLPs\tilebases.xlp
 Opened output file: C:\Users\Sam\Documents\My Games\Sid Meier's Civilization VI\Mods\CIVITAS Berbers\Platforms\MacOS\BLPs/landmarks/tilebases.blp    For XLP: '\\WDMYCLOUD\Sam\Projects\Modding\Civ VI\IdeaProjects\GitHub\CIVITAS-Berbers\CIVITAS Berbers\CIVITAS Berbers\XLPs\tilebases.xlp'
 Starting 'landmarks/tilebases'
-Load finished for: 'landmarks/tilebases' in 0.267 seconds
-Cook finished for: 'landmarks/tilebases' in 0.009 seconds
-Disk write finished for: 'landmarks/tilebases' in 0.029 seconds
-Cleanup finished for: 'landmarks/tilebases' in 0.011 seconds
+Load finished for: 'landmarks/tilebases' in 0.256 seconds
+Cook finished for: 'landmarks/tilebases' in 0.008 seconds
+Disk write finished for: 'landmarks/tilebases' in 0.028 seconds
+Cleanup finished for: 'landmarks/tilebases' in 0.008 seconds
 XLP cook completed with success.
-Cook completed in 0.341 seconds
+Cook completed in 0.327 seconds

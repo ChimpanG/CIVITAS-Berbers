@@ -18,7 +18,7 @@ VALUES
 
 	("en_US",	"LOC_TRAIT_LEADER_CVS_TIN_HINAN_UA_NAME",  "Imajaghan"	),
 	("en_US",	"LOC_TRAIT_LEADER_CVS_TIN_HINAN_UA_DESCRIPTION",
-	"Trader units are immune to plunder on desert tiles. TBD. Maybe +1 culture from trading posts or something."	),
+	"Trader units are immune to plunder on desert tiles. "	),
 
 -----------------------------------------------
 -- Agenda
