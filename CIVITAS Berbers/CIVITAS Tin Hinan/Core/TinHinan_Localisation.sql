@@ -16,7 +16,7 @@ VALUES
 -- UA
 -----------------------------------------------	
 
-	("en_US",	"LOC_TRAIT_LEADER_CVS_TIN_HINAN_UA_NAME",  "Imajaghan"	),
+	("en_US",	"LOC_TRAIT_LEADER_CVS_TIN_HINAN_UA_NAME",  "Tamenokalt"	),
 	("en_US",	"LOC_TRAIT_LEADER_CVS_TIN_HINAN_UA_DESCRIPTION",
 	"Trader units are immune to plunder on desert tiles. "	),
 
@@ -24,7 +24,7 @@ VALUES
 -- Agenda
 -----------------------------------------------	
 
-	("en_US",	"LOC_AGENDA_CVS_TIN_HINAN_NAME",	"Tamenoka"	),
+	("en_US",	"LOC_AGENDA_CVS_TIN_HINAN_NAME",	"Mother of Us All"	),
 	("en_US",	"LOC_AGENDA_CVS_TIN_HINAN_DESCRIPTION",	"TBD"	),
 	
 	("en_US",	"LOC_DIPLO_KUDO_LEADER_CVS_TIN_HINAN_REASON_ANY",	"(TBD.)"	),
@@ -38,7 +38,7 @@ VALUES
 -----------------------------------------------	
 
 	("en_US",	"LOC_LOADING_INFO_LEADER_CVS_TIN_HINAN",
-	"Arise, Tin Hinan, Tamenukalt of the Tuareg. Yada yada yada, but your enemies will do well to remember that the sands can blow with subtle winds."  	),
+	"Arise, Tin Hinan, She of the Tents, Queen of the Hoggar, and Mother of all the Tuareg. Yada yada yada, but your enemies will do well to remember that the sands can blow with subtle winds."  	),
 
 -----------------------------------------------
 -- Diplos | First Meet

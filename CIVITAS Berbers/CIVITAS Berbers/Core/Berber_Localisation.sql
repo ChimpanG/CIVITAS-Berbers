@@ -50,42 +50,36 @@ VALUES
 -- Mountains
 -----------------------------------------------
 
-	("en_US",	"LOC_NAMED_MOUNTAIN_ALMAJ",		 "Almăj Mountains"		),
-	("en_US",	"LOC_NAMED_MOUNTAIN_BIHOR",		 "Bihor Mountains"		),
-	("en_US",	"LOC_NAMED_MOUNTAIN_BUCEGI",	 "Bucegi Mountains"		),
-	("en_US",	"LOC_NAMED_MOUNTAIN_FAGARAS",	 "Făgăraş Mountains"	),
-	("en_US",	"LOC_NAMED_MOUNTAIN_GODEANU",	 "Godeanu Mountains"	),
-	("en_US",	"LOC_NAMED_MOUNTAIN_RETEZAT",	 "Retezat Mountains"	),
-	("en_US",	"LOC_NAMED_MOUNTAIN_VRANCEA",	 "Vrancea Mountains"	),
-	("en_US",	"LOC_NAMED_MOUNTAIN_SUREANU",	 "Şureanu Mountains"	),
-	("en_US",	"LOC_NAMED_MOUNTAIN_TARCU",		 "Ţarcu Mountains"		),
+	("en_US",	"LOC_NAMED_MOUNTAIN_RIF",		 "The Rif"		),
+	("en_US",	"LOC_NAMED_MOUNTAIN_AURES",		 "Aurès Mountains"		),
+	("en_US",	"LOC_NAMED_MOUNTAIN_HIGH_ATLAS",	 "High Atlas"		),
+	("en_US",	"LOC_NAMED_MOUNTAIN_LESSER_ATLAS",	 "Lesser Atlas"	),
 
 -----------------------------------------------
 -- Rivers
 -----------------------------------------------
 
-	("en_US",	"LOC_NAMED_RIVER_MURES",		"Mureș River"		),
-	("en_US",	"LOC_NAMED_RIVER_PRUT",			"Prut River"		),
-	("en_US",	"LOC_NAMED_RIVER_OLT",			"Olt River"			),
-	("en_US",	"LOC_NAMED_RIVER_SIRET",		"Siret River"		),
-	("en_US",	"LOC_NAMED_RIVER_IALOMITA",		"Ialomița River"	),
-	("en_US",	"LOC_NAMED_RIVER_SOMES",		"Someș River"		),
-	("en_US",	"LOC_NAMED_RIVER_ARGES",		"Argeș River"		),
-	("en_US",	"LOC_NAMED_RIVER_JIU",			"Jiu River"			),
-	("en_US",	"LOC_NAMED_RIVER_BUZAU",		"Buzău River"		),
-	("en_US",	"LOC_NAMED_RIVER_DAMBOVITA",	"Dâmbovița River"	),
+	("en_US",	"LOC_NAMED_RIVER_OUED_SAOURA",		"Oued Saoura"		),
+	("en_US",	"LOC_NAMED_RIVER_DJEDI",			"Djedi River"		),
+	("en_US",	"LOC_NAMED_RIVER_CHELIF",			"Chelif River"			),
+	("en_US",	"LOC_NAMED_RIVER_BOU_REGREG",		"Bou Regreg"		),
+	("en_US",	"LOC_NAMED_RIVER_SOUS",		"Sous River"	),
+	("en_US",	"LOC_NAMED_RIVER_DRAA",		"Draa River"		),
 
 -----------------------------------------------
 -- Volcanoes
 -----------------------------------------------
 
-	("en_US",	"LOC_NAMED_DESERT_OLTENIA",		"Oltenia Sahara"	),
+	("en_US",	"LOC_NAMED_DESERT_TENERE",		"Ténéré"	),
+	("en_US",	"LOC_NAMED_DESERT_GRAND_ERG_OCC",		"Grand Erg Occidental"	),
+	("en_US",	"LOC_NAMED_DESERT_GRAND_ERG_ORI",		"Grand Erg Oriental"	),
 
 -----------------------------------------------
 -- Volcanoes
 -----------------------------------------------
 
-	("en_US",	"LOC_NAMED_VOLCANO_CIOMADUL",	"Ciomadul"	),
+	("en_US",	"LOC_NAMED_VOLCANO_ATAKOR",	"Atakor"	),
+	("en_US",	"LOC_NAMED_VOLCANO_HARUJ",	"Haruj"	),
 
 -----------------------------------------------
 -- Cities
@@ -95,7 +89,6 @@ VALUES
 	("en_US", "LOC_CITY_NAME_FEZ", "Fez"), -- Already exists @ Fez
 	("en_US", "LOC_CITY_NAME_TOUGGOURT", "Touggourt"),
 	("en_US", "LOC_CITY_NAME_GHARDAIA", "Ghardaia"),
-	("en_US", "LOC_CITY_NAME_CONSTANTINE", "Constantine"),
 	("en_US", "LOC_CITY_NAME_BEJAIA", "Bejaia"),
 	("en_US", "LOC_CITY_NAME_TETOUAN", "Tetouan"),
 	("en_US", "LOC_CITY_NAME_ANNABA", "Annaba"),
@@ -122,7 +115,7 @@ VALUES
 	("en_US", "LOC_CITY_NAME_MARRAKESH", "Marrakesh"),
 	("en_US", "LOC_CITY_NAME_ALGIERS", "Algiers"),
 	("en_US", "LOC_CITY_NAME_TUNIS", "Tunis"),
-	-- ("en_US", "LOC_CITY_NAME_TRIPOLI", "Tripoli"), -- Already exists @ Arabia
+	("en_US", "LOC_CITY_NAME_TRIPOLI_OF_THE_WEST", "Tripoli"),
 	("en_US", "LOC_CITY_NAME_TIZI_OUZOU", "Tizi Ouzou"),
 	("en_US", "LOC_CITY_NAME_KAIROUAN", "Kairouan"),
 	("en_US", "LOC_CITY_NAME_OUARGLA", "Ouargla"),
@@ -268,6 +261,6 @@ VALUES
 	("en_US",	"LOC_GOVERNMENT_JFD_REPUBLIC_LEADER_TITLE_CVS_BERBER",						"Amalway"					),
 	("en_US",	"LOC_GOVERNMENT_JFD_REPUBLIC_LEADER_TITLE_CVS_BERBER_FEMININE",				"Tamalwayt"					),
 	("en_US",	"LOC_GOVERNMENT_JFD_MONARCHY_LEADER_TITLE_CVS_BERBER",						"Agellid"					),
-	("en_US",	"LOC_GOVERNMENT_JFD_MONARCHY_LEADER_TITLE_CVS_BERBER_FEMININE",				"Tagellidt"					),
+	("en_US",	"LOC_GOVERNMENT_JFD_MONARCHY_LEADER_TITLE_CVS_BERBER_FEMININE",				"Tamenokalt"				),
 	("en_US",	"LOC_GOVERNMENT_JFD_LIBERAL_DEMOCRACY_LEADER_TITLE_CVS_BERBER",				"Aselway"					),
 	("en_US",	"LOC_GOVERNMENT_JFD_LIBERAL_DEMOCRACY_LEADER_TITLE_CVS_BERBER_FEMININE",	"Amalway"					);

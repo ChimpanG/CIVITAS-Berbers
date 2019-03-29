@@ -47,9 +47,10 @@ VALUES	('LEADER_CVS_MASINISSA',	'LEADER_CVS_MASINISSA_NEUTRAL',	'LEADER_CVS_MASI
 -- FavoredReligions
 -----------------------------------------------	
 
-INSERT INTO FavoredReligions	
-		(LeaderType,				ReligionType		)
-VALUES	('LEADER_CVS_MASINISSA',	'RELIGION_JUDAISM'	);
+INSERT OR REPLACE INTO FavoredReligions
+           (LeaderType,                                       ReligionType)
+SELECT   ('LEADER_CVS_MASINISSA'),                             ('RELIGION_CNAANISM')
+WHERE EXISTS (SELECT * FROM Religions WHERE ReligionType = 'RELIGION_CNAANISM');
 
 -----------------------------------------------
 -- RequirementSetRequirements

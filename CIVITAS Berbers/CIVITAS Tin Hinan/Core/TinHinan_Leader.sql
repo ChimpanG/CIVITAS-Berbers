@@ -17,7 +17,7 @@ VALUES	('LEADER_CVS_TIN_HINAN',	'KIND_LEADER'	);
 
 INSERT INTO	CivilizationLeaders
 		(CivilizationType,			LeaderType,				CapitalName				)
-VALUES	('CIVILIZATION_CVS_BERBER',	'LEADER_CVS_TIN_HINAN',	'LOC_CITY_NAME_TAGHZUT'	);
+VALUES	('CIVILIZATION_CVS_BERBER',	'LEADER_CVS_TIN_HINAN',	'LOC_CITY_NAME_ABALESSA'	);
 
 -----------------------------------------------
 -- Leaders
@@ -47,9 +47,15 @@ VALUES	('LEADER_CVS_TIN_HINAN',	'LEADER_CVS_TIN_HINAN_NEUTRAL',	'LEADER_CVS_TIN_
 -- FavoredReligions
 -----------------------------------------------	
 
-INSERT INTO FavoredReligions	
-		(LeaderType,				ReligionType		)
-VALUES	('LEADER_CVS_TIN_HINAN',	'RELIGION_JUDAISM'	);
+INSERT OR REPLACE INTO FavoredReligions
+           (LeaderType,                                       ReligionType)
+SELECT   ('LEADER_CVS_TIN_HINAN'),                             ('RELIGION_ISLAM')
+WHERE NOT EXISTS (SELECT * FROM Religions WHERE ReligionType = 'RELIGION_E1_AMANAIISM');
+
+INSERT OR REPLACE INTO FavoredReligions
+           (LeaderType,                                       ReligionType)
+SELECT   ('LEADER_CVS_TIN_HINAN'),                             ('RELIGION_E1_AMANAIISM')
+WHERE EXISTS (SELECT * FROM Religions WHERE ReligionType = 'RELIGION_E1_AMANAIISM');
 
 -----------------------------------------------
 -- RequirementSetRequirements
