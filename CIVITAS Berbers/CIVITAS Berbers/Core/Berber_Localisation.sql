@@ -191,6 +191,9 @@ VALUES
 	("en_US",	"LOC_CITIZEN_CVS_BERBER_FEMALE_8",		"Takama"		),
 	("en_US",	"LOC_CITIZEN_CVS_BERBER_FEMALE_9",		"Tadla"			),
 	("en_US",	"LOC_CITIZEN_CVS_BERBER_FEMALE_10",		"Tafrara"		),
+	("en_US",	"LOC_CITIZEN_CVS_BERBER_FEMALE_11",		"Tinert"		),
+	("en_US",	"LOC_CITIZEN_CVS_BERBER_FEMALE_12",		"Tahenkat"		),
+	("en_US",	"LOC_CITIZEN_CVS_BERBER_FEMALE_13",		"Tamerwelt"		),
 	
 -----------------------------------------------
 -- Info
