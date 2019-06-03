@@ -266,6 +266,7 @@ INSERT INTO RequirementSetRequirements
         (RequirementSetId,				RequirementId				)
 VALUES	('REQSET_CVS_PLAYER_IS_BERBER',	'REQ_CVS_PLAYER_IS_BERBER'	);
 
+
 -----------------------------------------------
 -- Requirements
 -----------------------------------------------
