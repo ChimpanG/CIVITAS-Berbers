@@ -96,7 +96,7 @@ SELECT	'UNIT_CVS_BERBER_UU',	-- UnitType
 		PromotionClass,
 		Maintenance,
 		MandatoryObsoleteTech,
-		PrereqTech,
+		null,
 		'CIVIC_MILITARY_TRAINING' -- PrereqCivic
 FROM	Units
 WHERE	UnitType = 'UNIT_PIKEMAN';
