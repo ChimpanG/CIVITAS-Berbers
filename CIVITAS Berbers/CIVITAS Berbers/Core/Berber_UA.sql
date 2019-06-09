@@ -11,7 +11,7 @@ CREATE VIEW IF NOT EXISTS v_BerberUA (DistrictType, YieldType) AS
 SELECT DISTINCT
 		DistrictType, YieldType
 FROM	District_TradeRouteYields
-WHERE	YieldChangeAsInternationalDestination = 1
+WHERE	(YieldChangeAsInternationalDestination = 1 OR YieldChangeAsInternationalDestination = 3)
 AND		DistrictType IN
 (
 'DISTRICT_CAMPUS',

@@ -20,7 +20,7 @@ VALUES
 
 	("en_US",	"LOC_TRAIT_CIVILIZATION_CVS_BERBER_UA_NAME",			"Tamazgha"	),
 	("en_US",	"LOC_TRAIT_CIVILIZATION_CVS_BERBER_UA_DESCRIPTION",		"Specialty districts receive major adjacency bonuses from Oases. Foreign [ICON_TRADEROUTE] Trade Routes that pass through Berber cities generate +3 [ICON_GOLD] Gold and +2 [ICON_PRODUCTION] Production in those cities. Trader units are invisible unless adjacent to an enemy unit."	),
-	("en_US",	"LOC_TRAIT_CIVILIZATION_CVS_BERBER_UA_XP2_DESCRIPTION",	"Specialty districts receive major adjacency bonuses from Oases. Foreign [ICON_TRADEROUTE] Trade Routes that pass through Berber cities generate +3 [ICON_GOLD] Gold and +2 [ICON_PRODUCTION] Production in those cities. Units are immune to Dust Storms and enemy units take 100% extra damage from Dust Storms in Berber territory."	),
+	("en_US",	"LOC_TRAIT_CIVILIZATION_CVS_BERBER_UA_XP2_DESCRIPTION",	"Specialty districts receive major adjacency bonuses from Oases. Foreign [ICON_TRADEROUTE] Trade Routes that pass through Berber cities generate +3 [ICON_GOLD] Gold and +2 [ICON_PRODUCTION] Production in those cities. Trader units are invisible unless adjacent to an enemy unit. Units are immune to Dust Storms and enemy units take 100% extra damage from Dust Storms in Berber territory."	),
 
 	("en_US",	"LOC_MODIFIER_CVS_BERBER_UA_DISTRICT_CAMPUS",			"+{1_num} [ICON_SCIENCE] Science from the adjacent {1_Num : plural 1?Oasis; other?Oases;}."	),
 	("en_US",	"LOC_MODIFIER_CVS_BERBER_UA_DISTRICT_THEATER",			"+{1_num} [ICON_CULTURE] Culture from the adjacent {1_Num : plural 1?Oasis; other?Oases;}."	),
@@ -34,7 +34,7 @@ VALUES
 -----------------------------------------------
 
 	("en_US",	"LOC_IMPROVEMENT_CVS_BERBER_UI_NAME",			"Foggara"	),
-	("en_US",	"LOC_IMPROVEMENT_CVS_BERBER_UI_DESCRIPTION",	"Unlocks the builder ability to construct a Foggara, an improvement unique to Berbers.[NEWLINE][NEWLINE]Yields +1 [ICON_FOOD] Food, with additional [ICON_Food] Food for every two adjacent Foggara, and each adjacent Mountain or Hills tile. Flat terrain adjacent to a Foggara yields +1 [ICON_FOOD] Food. Must be built on flat desert terrain and in a line with other Foggara."	),
+	("en_US",	"LOC_IMPROVEMENT_CVS_BERBER_UI_DESCRIPTION",	"Unlocks the builder ability to construct a Foggara, an improvement unique to Berbers.[NEWLINE][NEWLINE]Yields +1 [ICON_FOOD] Food, with additional [ICON_Food] Food for every two adjacent Foggara, and each adjacent Mountain or Hills tile. Flat terrain adjacent to a Foggara yields +1 [ICON_FOOD] Food. Must be built on flat desert terrain and in a line with other Foggara. Immune to damage from Droughts and Dust Storms."	),
 
 -----------------------------------------------
 -- UU
@@ -67,7 +67,7 @@ VALUES
 	("en_US",	"LOC_NAMED_RIVER_DRAA",		"Draa River"		),
 
 -----------------------------------------------
--- Volcanoes
+-- Deserts
 -----------------------------------------------
 
 	("en_US",	"LOC_NAMED_DESERT_TENERE",		"Ténéré"	),
